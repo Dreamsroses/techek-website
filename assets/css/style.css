@@ -1,9 +1,9 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-main{
+main {
     background-image: url(../img/background.jpg);
     background-size: cover;
     height: 650px;
@@ -11,28 +11,30 @@ main{
     background-position: bottom center;
 }
 
-.logo-techek{
+.logo-techek {
     width: 25%;
 }
 
-h1{
+h1 {
     padding-left: 30px;
-    font-size: 3.8rem;
+    font-size: 3.8em;
     color: #005375;
     line-height: 50px;
 }
 
-h2{
+h2 {
     padding-left: 30px;
-    font-size: 1.8rem;
+    font-size: 1.8em;
     color: #0999CB;
 }
 
-.redes-sociales{
+.redes-sociales {
     text-align: center;
 }
 
-.logo-facebook, .logo-instagram, .logo-tiktok{
+.logo-facebook,
+.logo-instagram,
+.logo-tiktok {
     width: 5%;
     padding-bottom: 0;
     margin-top: 100px;
@@ -42,23 +44,25 @@ h2{
 
 @media only screen and (max-width: 700px) {
 
-
-    main{
+    main {
         height: 750px;
     }
 
-    .logo-facebook, .logo-instagram, .logo-tiktok{
+    .logo-facebook,
+    .logo-instagram,
+    .logo-tiktok {
         width: 9%;
     }
 
-    h1{
+    h1 {
         margin-top: 5%;
         line-height: 80px;
+        font-size: 2.8em;
     }
-    
-    h2{
+
+    h2 {
         padding-top: 100px;
         line-height: 40px;
     }
 
-  }
+}
