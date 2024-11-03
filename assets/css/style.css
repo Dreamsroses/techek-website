@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.logo-techek{
+    width: 25%;
+}
+
+h1{
+    padding-left: 30px;
+    font-size: 3.8rem;
+    color: #005375;
+    line-height: 50px;
+}
+
+h2{
+    padding-left: 30px;
+    font-size: 1.8rem;
+    color: #0999CB;
+}
+
+.redes-sociales{
+    text-align: center;
+}
+
+.logo-facebook, .logo-instagram, .logo-tiktok{
+    width: 5%;
+    padding-bottom: 0;
+    margin-top: 100px;
+    padding: 0 10px;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+
+    main{
+        height: 750px;
+    }
+
+    .logo-facebook, .logo-instagram, .logo-tiktok{
+        width: 9%;
+    }
+
+    h1{
+        margin-top: 5%;
+        line-height: 80px;
+    }
+    
+    h2{
+        padding-top: 100px;
+        line-height: 40px;
+    }
+
+  }
