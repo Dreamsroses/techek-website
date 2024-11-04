@@ -22,6 +22,7 @@ h1 {
     font-size: 3.8em;
     color: #005375;
     line-height: 50px;
+    font-family: "Montserrat", sans-serif;
 }
 
 h2 {
@@ -29,6 +30,8 @@ h2 {
     font-size: 1.8em;
     color: #0999CB;
     margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
 }
 
 .redes-sociales {
@@ -46,10 +49,18 @@ h2 {
 }
 
 
+.parrafo-contacto {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+
 @media (min-width: 300px) and (max-width: 700px) {
 
     main {
         height: 750px;
+        background-position: left;
     }
 
     .logo-techek {
@@ -62,18 +73,23 @@ h2 {
         margin-top: 5%;
         line-height: 80px;
         font-size: 2.5em;
+        font-family: "Montserrat", sans-serif;
+
     }
 
     h2 {
         line-height: 40px;
         color: black;
         padding: 0 auto;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
     }
 
     .logo-facebook,
     .logo-instagram,
     .logo-tiktok {
-        width: 15%;;
+        width: 15%;
+        ;
     }
 
 }
